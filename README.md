@@ -68,7 +68,7 @@ A complete working example is provided in the `docker-compose.yml` file.
 
 5. **Faucet Your Worker Node**
     
-    You can find the offchain worker node's address in `./worker-data/env_file` under `ALLORA_OFFCHAIN_ACCOUNT_ADDRESS`. [Add faucet funds](https://docs.allora.network/devs/get-started/setup-wallet#add-faucet-funds) to your worker's wallet before starting it.
+    You can find the off-chain worker node's address in `./worker-data/env_file` under `ALLORA_OFFCHAIN_ACCOUNT_ADDRESS`. [Add faucet funds](https://docs.allora.network/devs/get-started/setup-wallet#add-faucet-funds) to your worker's wallet before starting it.
 
 6. **Start the Services**
     
@@ -83,7 +83,7 @@ A complete working example is provided in the `docker-compose.yml` file.
 
 ## Testing Inference Only
 
-This setup allows you to develop your model without the need to bring up the offchain worker or the updater. To test the inference model only:
+This setup allows you to develop your model without the need to bring up the off-chain worker or the updater. To test the inference model only:
 
 1. Run the following command to start the inference node:
     ```sh
